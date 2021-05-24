@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 .page {
   min-width: 1100px;
@@ -55,13 +56,12 @@
   right: 0;
 
 
-
-
-
 }
+
 .logo__img{
 max-width: 100%;
 }
+
 .logo_place_header{
   position: absolute;
   top: 30px;
@@ -74,4 +74,67 @@ max-width: 100%;
   left: 64px;
   font-size: 102px;
   width: 730px;
+  line-height: 96px;
+}
+.subtitle{
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
+  width: 388px;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+}
+
+.description{
+  min-height: 200px;
+  position: relative;
+  background-color: #ffffff;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.two-columns{
+  width: 80%;
+  display: flex;
+  position: relative;
+  min-height: 300px;
+  margin-top: 100px;
+  justify-content: space-between;
+}
+
+.brief{
+  width: 175px;
+}
+.main-text{
+  width: 80%;
+}
+
+.paragrarph{
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+}
+
+.paragraph__two{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.brief h3{
+  position:relative;
+  top: 0;
+  left:0;
+  line-height: 1.2;
+  font-size: 18px;
+  color: #2f80ed;
+  font-weight: normal;
+}
+
+.span__accent{
+  font-size: 24px ;
+  font-weight: bolder;
+  line-height: 34px;
 }
