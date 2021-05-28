@@ -257,3 +257,37 @@ line-height: 51px;
 font-size: 36px;
 font-weight: normal;
 }
+
+.kaufman{
+  min-height: 200px;
+  position: relative;
+  background-color: #1f1f1f;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(../images/kaufman-triangle.svg);
+  background-repeat: no-repeat;
+  background-position: 130% 0%;
+  background-size: 877px 877px;
+
+}
+.kaufman__title_color{
+  color: #ffffff;
+}
+.kaufman__subtitle_color{
+  color: #ffffff;
+  margin-top: 20px;
+}
+.kaufman__header{
+  margin-top: 90px;
+}
+.cell_theme_dark{
+  width: 200px;
+  margin-top: 80px;
+}
+
+.table_theme_dark{
+  color: #ffffff;
+  margin-bottom: 90px;
+}
