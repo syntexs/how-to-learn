@@ -31,7 +31,7 @@
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
+.square-pic {
   height: 568px;
   width: 568px;
   background-color:#2f80ed;
@@ -58,15 +58,12 @@
 
 }
 
-.logo__img{
-max-width: 100%;
-}
+
 
 .logo_place_header{
   position: absolute;
   top: 30px;
   left:64px;
-
 }
 
 .header__title{
@@ -159,7 +156,7 @@ max-width: 100%;
 }
 
 
-.digits__header_flex
+.header_flex
 {
 display:flex;
 align-items: center;
@@ -167,7 +164,7 @@ flex-direction: column;
 justify-content: flex-start;
 
 }
-.digits__subtitle{
+.section__subtitle{
   margin-top: 20px;
   line-height: 34px;
   font-size: 24px;
