@@ -3,7 +3,7 @@
 ### Description
  I used html and css technologies and the flex-box layout method in the project + css animation
 
-# мой проект в рамках курса Яндекс Мрактикум
+# мой проект в рамках курса Яндекс Практикум
 :+1: :sparkles: :camel: :tada: :rocket: :metal: :octocat:
 ### Описание
 в прокте использованы css и html технологии и метод верски flex-box + css анимации
